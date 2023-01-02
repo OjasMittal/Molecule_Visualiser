@@ -1,8 +1,11 @@
 import streamlit as st
 import glob
 from st_speckmol import speck_plot
-st.title('Molecule Analyser')
-st.subheader('A tool to analyse various molecule structures :microscope: ')
+from PIL import Image
+img = Image.open('dna.jpg')
+st.set_page_config(page_title="Molecule Visualiser",page_icon=img)
+st.title('Molecule Visualiser')
+st.subheader('A tool to visualise various molecule structures :microscope: ')
 st.write("")
 ex_files = glob.glob("xyz_mol_examples/*.xyz")
 with st.sidebar:
