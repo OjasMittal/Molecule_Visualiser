@@ -1,4 +1,4 @@
-# Molecule_Visualiser
+# 3D Molecule Visualiser
 Bored of studying the structures of various molecules? 
 
 Don't worry, use molecule-visualizer to visualize and study these complex structures in their original,3D- form !!
